@@ -1,5 +1,6 @@
 def my_select(collection)
  newArray = []
+ i = 0 
  if array.instance_of(collection)
  i = 0 
  while i < array.length 
