@@ -1,9 +1,9 @@
 def my_select(collection)
  newArray = []
- if newArray.instance_of(collection)
+ if array.instance_of(collection)
  i = 0 
- while i < newArray.length 
-  yield(newArray[i])
+ while i < array.length 
+  newArray << yield(array[i])
   i += 1 
 end
 end
