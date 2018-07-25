@@ -1,4 +1,4 @@
-def my_select(collection)
+def my_select(array)
  newArray = []
  i = 0 
  while i < array.length 
